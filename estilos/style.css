@@ -62,3 +62,27 @@ div#formulario > p{
 div#formulario > h1{
     font-size: 1.2em;
 }
+
+form > input[type=subimit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=subimit]:hover{
+    background-color: rgb(26, 37, 14);
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    
+}
